@@ -1,0 +1,114 @@
+@font-face{
+    src : url("Montserrat-ExtraBoldItalic.ttf");
+}
+@font-face{
+     src : url("Montserrat-MediumItalic.ttf");
+ }
+ @font-face{
+       src : url("Montserrat-SemiBold.ttf");
+   }
+#parent{
+    -fx-background-color : "black";
+}
+#bg{
+    -fx-background-image : url("../homepage_bg.jpg");
+    -fx-background-size : cover;
+    -fx-background-position : center center;
+}
+
+.estimationBg{
+    -fx-background-color : "ghostwhite";
+}
+
+#heading{
+    -fx-font-family : "Montserrat ExtraBold";
+}
+
+#quote{
+    -fx-font-family : "Montserrat MediumItalic";
+}
+
+.normal{
+    -fx-font-family : "Montserrat SemiBold";
+    -fx-text-fill : "ghostwhite";
+}
+
+.blackBg{
+    -fx-background-color : "black";
+}
+
+#ordernow{
+    -fx-background-color : #ee3f3f;
+    -fx-text-fill : "white";
+}
+
+#textheading{
+    -fx-font-family : "Montserrat ExtraBold";
+    -fx-text-fill : "black";
+}
+#text{
+    -fx-font-family : "Montserrat SemiBold";
+    -fx-text-fill : "black";
+}
+#ordernow:pressed{
+    -fx-scale-x : 0.97;
+    -fx-scale-y : 0.97;
+}
+
+#ordernow:hover{
+    -fx-background-color : #A91117;
+    -fx-text-fill : "silver";
+}
+
+
+.button{
+ -fx-background-color : #ee3f3f;
+    -fx-text-fill : "white";
+    -fx-font-family : "Montserrat ExtraBold";
+}
+
+.button:pressed{
+    -fx-scale-x : 0.97;
+    -fx-scale-y : 0.97;
+}
+.button:hover{
+    -fx-background-color : #A91117;
+    -fx-text-fill : "silver";
+}
+
+
+/* CSS for TextField with underline design */
+.text-field {
+    -fx-font-family : "Montserrat SemiBold";
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-text-fill : "white";
+    -fx-border-width: 0 0 1 0; /* Only bottom border */
+    -fx-border-color: #ffffff; /* Color of the underline */
+    -fx-border-style: solid; /* Solid line style */
+}
+
+
+.text-field:focused {
+    -fx-border-color: #ee3f3f;
+}
+
+/* CSS for TextArea with rectangular border and transparent background */
+.text-area {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-color: #000000; /* Border color */
+    -fx-border-radius: 3px; /* Border radius */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 0px; /* No padding */
+}
+
+/* Override default TextArea scrollbar */
+.text-area .scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+/* Remove the white background inside the TextArea */
+.text-area .content {
+    -fx-background-color: transparent;
+}
+

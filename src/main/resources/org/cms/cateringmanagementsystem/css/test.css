@@ -1,0 +1,6 @@
+#bg{
+    -fx-background-image : url("../homepage_bg.jpg");
+    -fx-background-size : cover;
+    -fx-background-position : center center;
+    -fx-background-repeat : no-repeat;
+}

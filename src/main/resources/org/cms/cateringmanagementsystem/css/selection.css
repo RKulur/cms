@@ -1,0 +1,13 @@
+
+.greenKabab{
+    -fx-background-image : url("../images/non-veg/starters/greenKebab.png");
+}
+
+.label{
+    -fx-font-family : "Montserrat SemiBold";
+    -fx-font-size : 20px;
+}
+
+.labelSm{
+    -fx-font-size : 15px;
+}
